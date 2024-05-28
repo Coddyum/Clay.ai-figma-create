@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .line-height32 {
     line-height: 32px;
+    font-size: 24px;
+}
+
+.a-ml-507 {
+    margin-left: 344px;
 }
