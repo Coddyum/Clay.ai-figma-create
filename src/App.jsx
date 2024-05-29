@@ -1,12 +1,11 @@
 import React from 'react'
 import './App.css'
-import NavBar from './assets/components/common/Navbar/NavBar.jsx'
-import ButtonPrimary from './assets/components/common/Button/Primary/Button.jsx'
+import Home from './assets/Pages/Home/Home.jsx'
 
 function App() {
   return (
     <>
-      <NavBar/>
+      <Home/>
     </>
   )
 }
