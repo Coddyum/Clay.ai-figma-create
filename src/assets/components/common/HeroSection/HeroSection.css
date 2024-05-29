@@ -3,3 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.wh-100 {
+    width: 100px;
+    height: 100px;
+}
+
+.img-w {
+    width: 400px;
+}
+
+.gap-x-32 {
+    column-gap: 120px ;
+}
+
+.text-5-5xl {
+    font-size: 56px;
+}
+
+.w-488 {
+    width: 488px;
+}
