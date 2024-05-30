@@ -15,7 +15,7 @@ function HeroSection() {
                             Top selling on Framer
                         </h4>
                     </div>
-                    <h1 className="font-bold text-white text-5-5xl text-left my-6">
+                    <h1 className="font-bold text-cod-red text-5-5xl text-left my-6">
                         Boost your Productivity with Creative AIs
                     </h1>
                     <p className="text-xl text-gray-500">

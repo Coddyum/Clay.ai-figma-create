@@ -1,7 +1,7 @@
 import React from "react";
-import NavBar from "../../components/common/Navbar/NavBar";
-import MovingBanner from "../../components/common/TopMovingBanner/MovingBanner";
-import HeroSection from "../../components/common/HeroSection/HeroSection";
+import NavBar from "../../components/layout/Navbar/NavBar"
+import MovingBanner from "../../components/layout/TopMovingBanner/MovingBanner";
+import HeroSection from "../../components/layout/HeroSection/HeroSection";
 
 function Home() {
     return(

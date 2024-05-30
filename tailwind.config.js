@@ -33,6 +33,9 @@ export default {
           '900': '#1d443d',
           '950': '#0c2725',
       },
+      cod:{
+        red: 'var(--cod-rouge)'
+      }
       
       },
     },
