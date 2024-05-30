@@ -1,29 +1,31 @@
 import "./HeroSection.css";
 
+import {Text, View} from "@UI"
+
 import ButtonPrimary from "../../common/Button/Primary/Button";
 import ButtonSecondary from "../../common/Button/Secondary/SecButton";
 
 function HeroSection() {
     return (
         <section
-            title="section div"
+            title="section View"
             className="flex items-center justify-center bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-blue-900 via-slate-900 to-slate-900 ">
-            <div title="main-container" className="max-w-[1200px] pt-24 px-10">
-                <div
+            <View title="main-container" className="max-w-[1200px] pt-24 px-10">
+                <View
                     title="little box space 100"
-                    className="w-[100px] h-[100px] mx-auto"></div>
-                <div className="my-24 flex gap-x-[120px]">
-                    <div className="w-[488px] flex flex-col justify-center">
-                        <div
+                    className="w-[100px] h-[100px] mx-auto"></View>
+                <View className="my-24 flex gap-x-[120px]">
+                    <View className="w-[488px] flex flex-col justify-center">
+                        <View
                             title="top selling on framer"
                             className="pl-2 pr-4 py-2 rounded-3xl w-[240px] border-2 border-gray-700 border-solid bg-gradient-to-r from-gray-600 via-gray-900 to-gray-900">
                             <h4 className="text-white">
-                                <span className="mr-2 text-white rounded-2xl px-2 bg-gradient-to-t to-boston-blue-600 from-bermuda-300 ">
+                                <Text className="mr-2 text-white rounded-2xl px-2 bg-gradient-to-t to-boston-blue-600 from-bermuda-300 ">
                                     New
-                                </span>
+                                </Text>
                                 Top selling on Framer
                             </h4>
-                        </div>
+                        </View>
                         <h1 className="font-bold text-white text-[56px] text-left my-6">
                             Boost your Productivity with Creative AIs
                         </h1>
@@ -31,12 +33,12 @@ function HeroSection() {
                             Specialising in crafting visually stunning and
                             highly functional user interfaces.
                         </p>
-                        <div className="flex gap-x-4 mt-10">
+                        <View className="flex gap-x-4 mt-10">
                             <ButtonPrimary text={"Get Started"} />
                             <ButtonSecondary text={"Contact Us"} />
-                        </div>
-                    </div>
-                    <div className="w-[400px] relative position">
+                        </View>
+                    </View>
+                    <View className="w-[400px] relative position">
                         <img
                             src="src\assets\components\layout\HeroSection\img\background.png"
                             alt=""
@@ -52,9 +54,9 @@ function HeroSection() {
                             alt=""
                             className="absolute w-[300px]  top-16 -right-16"
                         />
-                    </div>
-                </div>
-            </div>
+                    </View>
+                </View>
+            </View>
         </section>
     );
 }
