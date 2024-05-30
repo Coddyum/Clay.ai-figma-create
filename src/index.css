@@ -5,3 +5,6 @@
 :root {
     --cod-rouge:pink;
 }
+body::-webkit-scrollbar {
+	width: 0 !important;
+  }
