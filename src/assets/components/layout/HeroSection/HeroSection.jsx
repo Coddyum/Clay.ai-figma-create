@@ -7,10 +7,10 @@ function HeroSection() {
     return (
         <section
             title="section div"
-            className="w-full flex items-center justify-center bg-slate-900">
+            className="w-full flex items-center justify-center  bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-blue-900 via-slate-900 to-slate-900">
             <div
                 title="main-container"
-                className=" max-w-[1200px] h-auto pt-24 px-10 bg-gray-900">
+                className=" max-w-[1200px] h-auto pt-24 px-10">
                 <div
                     title="little box space 100"
                     className="w-[100px] h-[100px] mx-auto"></div>
@@ -34,8 +34,8 @@ function HeroSection() {
                             highly functional user interfaces.
                         </p>
                         <div className="flex gap-x-4 mt-10">
-                        <ButtonPrimary text={"Get Started"} />
-                        <ButtonSecondary text={"Contact Us"}/>
+                            <ButtonPrimary text={"Get Started"} />
+                            <ButtonSecondary text={"Contact Us"} />
                         </div>
                     </div>
                     <div className="w-[400px] relative position">
