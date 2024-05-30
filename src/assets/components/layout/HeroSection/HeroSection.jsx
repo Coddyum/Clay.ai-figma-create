@@ -7,20 +7,18 @@ function HeroSection() {
     return (
         <section
             title="section div"
-            className="w-full flex items-center justify-center  bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-blue-900 via-slate-900 to-slate-900">
-            <div
-                title="main-container"
-                className=" max-w-[1200px] h-auto pt-24 px-10">
+            className="flex items-center justify-center bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-blue-900 via-slate-900 to-slate-900 ">
+            <div title="main-container" className="max-w-[1200px] pt-24 px-10">
                 <div
                     title="little box space 100"
                     className="w-[100px] h-[100px] mx-auto"></div>
-                <div className="w-[1008px] h-auto my-24 flex gap-x-[120px]">
-                    <div className="w-[488px] h-auto flex flex-col justify-center">
+                <div className="my-24 flex gap-x-[120px]">
+                    <div className="w-[488px] flex flex-col justify-center">
                         <div
                             title="top selling on framer"
                             className="pl-2 pr-4 py-2 rounded-3xl w-[240px] border-2 border-gray-700 border-solid bg-gradient-to-r from-gray-600 via-gray-900 to-gray-900">
                             <h4 className="text-white">
-                                <span className="mr-2 text-white rounded-2xl px-2 bg-gradient-to-t to-boston-blue-600 from-bermuda-300">
+                                <span className="mr-2 text-white rounded-2xl px-2 bg-gradient-to-t to-boston-blue-600 from-bermuda-300 ">
                                     New
                                 </span>
                                 Top selling on Framer
