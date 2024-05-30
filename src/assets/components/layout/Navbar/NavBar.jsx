@@ -5,8 +5,8 @@ import ButtonPrimary from "../../common/Button/Primary/Button";
 
 function NavBar() {
     return (
-        <nav className="w-screen h-16 bg-gray-900 flex items-center">
-            <h1 className="ml-24 my-4 font-bold line-height32 bg-gradient-to-r from-slate-50  via-slate-100 via-50% to-slate-800 inline-block text-transparent bg-clip-text ">
+        <nav className="w-screen h-16 bg-gray-900 flex items-center justify-center">
+            <h1 className="max-w-[1200px] ml-24 my-4 font-bold line-height32 bg-gradient-to-r from-slate-50  via-slate-100 via-50% to-slate-800 inline-block text-transparent bg-clip-text ">
                 clay.ai
             </h1>
             <div className="ml-[344px] text-slate-500 flex gap-x-8">

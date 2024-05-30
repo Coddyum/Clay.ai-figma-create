@@ -9,8 +9,8 @@ import "./MovingBanner.css"
 function MovingBanner() {
     return(
 
-       <div className="w-screen h-10 bg-gray-900 text-slate-400">
-            <ul className="h-5 flex gap-x-12 items-center justify-center py-5">
+       <div className="w-screen flex items-center justify-center h-10 bg-gray-900 text-slate-400">
+            <ul className=" max-w-[1200px] h-5 flex gap-x-12 items-center justify-center py-5">
                 <li>
                     <StarIcon className="inline-block mr-1 size-4 text-slate-400"/>
                     Top-rated on Framer
