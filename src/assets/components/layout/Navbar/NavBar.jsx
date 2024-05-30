@@ -1,7 +1,7 @@
-import React from "react";
 import "./NavBar.css";
-import { ChevronDownIcon } from "@heroicons/react/16/solid";
+
 import ButtonPrimary from "../../common/Button/Primary/Button";
+import { ChevronDownIcon } from "@heroicons/react/16/solid";
 
 function NavBar() {
     return (

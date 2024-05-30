@@ -1,7 +1,7 @@
-import React from "react";
 import "./HeroSection.css";
-import ButtonSecondary from "../../common/Button/Secondary/SecButton";
+
 import ButtonPrimary from "../../common/Button/Primary/Button";
+import ButtonSecondary from "../../common/Button/Secondary/SecButton";
 
 function HeroSection() {
     return (

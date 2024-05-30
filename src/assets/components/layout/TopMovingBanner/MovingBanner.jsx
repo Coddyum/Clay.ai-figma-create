@@ -1,7 +1,6 @@
-import React from "react";
-import { StarIcon, HeartIcon, ClockIcon, ShieldCheckIcon } from "@heroicons/react/16/solid";
 import "./MovingBanner.css"
 
+import { ClockIcon, HeartIcon, ShieldCheckIcon, StarIcon } from "@heroicons/react/16/solid";
 
 {/* TODO: Ajouter l'annimation de carousel infinit */}
 
